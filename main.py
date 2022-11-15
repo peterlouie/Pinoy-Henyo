@@ -165,7 +165,7 @@ def update():
         # with a message:"Time's up"
         if (temp == 1):
             top = Toplevel(root)
-            top.geomet2y("330x50")
+            top.geometry("330x50")
             top.title("Game Over!!!")
             message = "Times Up!!! Hope you WIN"
             Label(top, text=message, font=("Noto Sans", 18)).pack(
